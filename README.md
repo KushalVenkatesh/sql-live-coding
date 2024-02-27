@@ -1,4 +1,4 @@
-# Mock SQL technical round interview for Data Analyst
+# Mock SQL interview for Data Analyst
 
 ## Data Description
 
