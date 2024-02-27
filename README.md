@@ -2,7 +2,8 @@
 
 This table records subscription details for customers of a B2B SaaS company. Each row represents a unique subscription, including its duration, plan type, and associated fees.
 
-Subscriptions Table
+### Table 1: Subscriptions
+
 | Column Name     | Type    |
 |-----------------|---------|
 | subscription_id | varchar |
@@ -19,16 +20,16 @@ plan_type: Type of subscription plan (e.g., Basic, Premium, Enterprise).
 
 The UsageLogs table tracks usage activities for each subscription, including the type of activity and the amount of data consumed during the activity.
 
-UsageLogs Table
-+-----------------+---------+          
-| Column Name     | Type    | 
-+-----------------+---------+
-| log_id          | varchar | 
-| subscription_id | varchar |     
-| activity_date   | date    |   
-| activity_type   | varchar |   
-| data_consumed_gb| decimal |     
-+-----------------+---------+
+### Table 2: UsageLogs
+
+| Column Name      | Type    |
+|------------------|---------|
+| log_id           | varchar |
+| subscription_id  | varchar |
+| activity_date    | date    |
+| activity_type    | varchar |
+| data_consumed_gb | decimal |
+
 
 activity_type: The type of activity (e.g., data upload, data download, streaming).
 
