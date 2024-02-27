@@ -65,6 +65,8 @@ GROUP BY subscription_status;
 
 **Task 3: Identify the month-over-month growth rate in the number of new subscriptions.**
 
+Answer:
+
 ```sql
 WITH MonthlySubscriptions AS (
     SELECT
@@ -92,6 +94,8 @@ FROM GrowthCalculations;
 
 **Task 4: For each plan type, find the customer who has the highest average data consumption.**
 
+Answer:
+
 ```sql
 WITH CustomerConsumption AS (
     SELECT
@@ -117,6 +121,8 @@ WHERE rank = 1;
 
 
 **Task 5: Calculate the retention rate of subscriptions from the start date to the end date, segmented by quarter of the start date. Define retention rate as the percentage of subscriptions that were not renewed (i.e., have an end_date) by the end of their term.**
+
+Answer:
 
 ```sql
 WITH QuarterlySubscriptions AS (
