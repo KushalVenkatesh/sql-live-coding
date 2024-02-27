@@ -34,6 +34,8 @@ The UsageLogs table tracks usage activities for each subscription, including the
 
 `activity_type`: The type of activity (e.g., data upload, data download, streaming).
 
+## Tasks
+
 **Task 1: Find the total number of active subscriptions as of the current date.**
 
 Answer: 
