@@ -16,10 +16,12 @@ This table records subscription details for customers of a B2B SaaS company. Eac
 | monthly_fee     | decimal |
 
 `end_date`: Date when the subscription ends. If NULL, the subscription is considered ongoing.
+
 `plan_type`: Type of subscription plan (e.g., Basic, Premium, Enterprise).
 
 
 ### Table 2: UsageLogs
+
 The UsageLogs table tracks usage activities for each subscription, including the type of activity and the amount of data consumed during the activity.
 
 | Column Name      | Type    |
@@ -30,8 +32,7 @@ The UsageLogs table tracks usage activities for each subscription, including the
 | activity_type    | varchar |
 | data_consumed_gb | decimal |
 
-
-activity_type: The type of activity (e.g., data upload, data download, streaming).
+`activity_type`: The type of activity (e.g., data upload, data download, streaming).
 
 **Task 1: Find the total number of active subscriptions as of the current date.**
 
