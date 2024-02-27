@@ -1,4 +1,4 @@
-# Surfalytics | Mock Interview: SQL technical round for Data Analyst
+# Mock SQL technical round interview for Data Analyst
 
 ## Data Description
 
