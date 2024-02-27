@@ -3,16 +3,15 @@
 This table records subscription details for customers of a B2B SaaS company. Each row represents a unique subscription, including its duration, plan type, and associated fees.
 
 Subscriptions Table
-+----------------+---------+          
-| Column Name    | Type    | 
-+----------------+---------+
-| subscription_id| varchar | 
-| customer_id    | varchar |     
-| start_date     | date    |   
-| end_date       | date    |   
-| plan_type      | varchar |     
-| monthly_fee    | decimal |      
-+----------------+---------+
+| Column Name     | Type    |
+|-----------------|---------|
+| subscription_id | varchar |
+| customer_id     | varchar |
+| start_date      | date    |
+| end_date        | date    |
+| plan_type       | varchar |
+| monthly_fee     | decimal |
+
 
 end_date: Date when the subscription ends. If NULL, the subscription is considered ongoing.
 plan_type: Type of subscription plan (e.g., Basic, Premium, Enterprise).
